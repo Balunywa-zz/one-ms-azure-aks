@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1. Get the application URL by running these commands:
+=======
+1. Get the application URL by running these commands test:
+>>>>>>> b061620f4bd76f758c3a61a7fa8ac073a66b94d1
 {{- if .Values.ingress.enabled }}
 {{- range $host := .Values.ingress.hosts }}
   {{- range .paths }}
